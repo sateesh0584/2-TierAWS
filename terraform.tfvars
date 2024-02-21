@@ -46,9 +46,3 @@ LAUNCH-TEMPLATE-NAME = "Web-template"
 ASG-NAME             = "Two-Tier-ASG"
 
 
-# CLOUDFRONT
-DOMAIN-NAME = "amanpathakdevops.study"
-CDN-NAME    = "Two-Tier-CDN"
-
-# WAF
-WEB-ACL-NAME = "Two-Tier-WAF"
