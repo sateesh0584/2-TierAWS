@@ -25,11 +25,11 @@ WEB-SG-NAME = "Two-Tier-web-sg"
 DB-SG-NAME  = "Two-Tier-db-sg"
 
 # RDS
-SG-NAME      = "two-tier-rds-sg"
-RDS-USERNAME = "admin"
-RDS-PWD      = "Admin1234"
-DB-NAME      = "mydb"
-RDS-NAME     = "Two-Tier-RDS"
+SG-NAME      = "cloudzenix-1-rds-sg"
+username  = "admin"
+password  = "admin123"
+DB-NAME      = "db01"
+RDS-NAME     = "Cloudzenix"
 
 # ALB
 TG-NAME  = "Web-TG"
