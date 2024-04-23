@@ -88,13 +88,4 @@ module "autoscaling" {
   depends_on = [module.iam]
 }
 
-module "route53" {
-  source = "./modules/aws-waf-cdn-acm-route53"
 
-  domain-name  = var.DOMAIN-NAME
-  cdn-name     = var.CDN-NAME
-  alb-name     = var.ALB-NAME
-  web_acl_name = var.WEB-ACL-NAME
-
-  depends_on = [ module.autoscaling ]
-}
