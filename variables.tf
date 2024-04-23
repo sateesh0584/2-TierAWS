@@ -47,12 +47,6 @@ variable "AMI-NAME" {}
 variable "LAUNCH-TEMPLATE-NAME" {}
 variable "ASG-NAME" {}
 
-# CLOUDFFRONT
-variable "DOMAIN-NAME" {}
-variable "CDN-NAME" {}
-
-# WAF
-variable "WEB-ACL-NAME" {}
 
 
 
