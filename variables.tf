@@ -23,16 +23,12 @@ variable "PRIVATE-RT-NAME2" {}
 variable "ALB-SG-NAME" {}
 variable "WEB-SG-NAME" {}
 variable "DB-SG-NAME" {}
-
 # RDS
 variable "SG-NAME" {}
-variable "RDS-USERNAME" {}
-variable "RDS-PWD" {}
+variable "username" {}
+variable "password" {}
 variable "DB-NAME" {}
 variable "RDS-NAME" {}
-
-
-
 # ALB
 variable "TG-NAME" {}
 variable "ALB-NAME" {}
